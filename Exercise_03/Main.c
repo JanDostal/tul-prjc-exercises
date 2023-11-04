@@ -109,19 +109,19 @@ static void printDifferenceComparisonBetweenPreviousShape(char* lastShapeType)
 	{
 		case CIRCLE:
 
-			printf("Posledni zadany %s %s druhy zadany kruh\n", lastShapeType, comparisonTextOutput);
+			printf("Posledni zadany %s %s %s zadany kruh\n", lastShapeType, comparisonTextOutput, uniqueShapesCount == 2 ? "prvni" : "druhy");
 			printf("Parametry kruhu: prumer kruhu = %.2f cm, obsah kruhu = %.2f cm2\n\n", circleDiameter, circleArea);
 			break;
 
 		case RECTANGLE:
 
-			printf("Posledni zadany %s %s druhy zadany obdelnik\n", lastShapeType, comparisonTextOutput);
+			printf("Posledni zadany %s %s %s zadany obdelnik\n", lastShapeType, comparisonTextOutput, uniqueShapesCount == 2 ? "prvni" : "druhy");
 			printf("Parametry obdelniku: strana A = %.2f cm, strana B = %.2f cm, obsah obdelniku = %.2f cm2\n\n", rectangleSideA, rectangleSideB, rectangleArea);
 			break;
 
 		case TRIANGLE:
 
-			printf("Posledni zadany %s %s druhy zadany trojuhelnik\n", lastShapeType, comparisonTextOutput);
+			printf("Posledni zadany %s %s %s zadany trojuhelnik\n", lastShapeType, comparisonTextOutput, uniqueShapesCount == 2 ? "prvni" : "druhy");
 			printf("Parametry trojuhelniku: vyska strany = %.2f cm, strana = %.2f cm, obsah trojuhelniku = %.2f cm2\n\n", triangleSideHeight, triangleSide, triangleArea);
 			break;
 	}
