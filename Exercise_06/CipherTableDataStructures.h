@@ -1,1 +1,10 @@
-#pragma once
+#ifndef CIPHER_TABLE_DATA_STRUCTURES_H
+
+#define CIPHER_TABLE_DATA_STRUCTURES_H
+
+typedef char** CIPHER_TABLE;
+typedef char*** MASKED_CIPHER_TABLE;
+
+typedef MASKED_CIPHER_TABLE* CIPHER_TABLE_LIST
+
+#endif
