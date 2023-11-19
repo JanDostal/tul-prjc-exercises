@@ -15,20 +15,20 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.c">
+    <ClCompile Include="CipherTableListTools.c">
       <Filter>Zdrojové soubory</Filter>
     </ClCompile>
-    <ClCompile Include="CipherTableListTools.c">
+    <ClCompile Include="CipherTableTests.c">
       <Filter>Zdrojové soubory</Filter>
     </ClCompile>
     <ClCompile Include="CipherTableTools.c">
       <Filter>Zdrojové soubory</Filter>
     </ClCompile>
+    <ClCompile Include="Main.c">
+      <Filter>Zdrojové soubory</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CipherTableTools.h">
-      <Filter>Hlavičkové soubory</Filter>
-    </ClInclude>
     <ClInclude Include="CipherTableDataStructures.h">
       <Filter>Hlavičkové soubory</Filter>
     </ClInclude>
@@ -36,6 +36,9 @@
       <Filter>Hlavičkové soubory</Filter>
     </ClInclude>
     <ClInclude Include="CipherTableTests.h">
+      <Filter>Hlavičkové soubory</Filter>
+    </ClInclude>
+    <ClInclude Include="CipherTableTools.h">
       <Filter>Hlavičkové soubory</Filter>
     </ClInclude>
   </ItemGroup>

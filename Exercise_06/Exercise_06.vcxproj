@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{be0d43ea-9949-44ce-8944-be2587dd5cc1}</ProjectGuid>
+    <ProjectGuid>{145a2d6f-fc62-4e1f-8545-f6e3aac31807}</ProjectGuid>
     <RootNamespace>Exercise06</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CipherTableListTools.c" />
+    <ClCompile Include="CipherTableTests.c" />
     <ClCompile Include="CipherTableTools.c" />
     <ClCompile Include="Main.c" />
   </ItemGroup>

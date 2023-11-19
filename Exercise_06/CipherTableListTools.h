@@ -2,9 +2,11 @@
 
 #include "CipherTableDataStructures.h"
 
+#include "stdbool.h"
+
 #define CIPHER_TABLE_LIST_TOOLS_H
 
-void pushToCipherTableList(MASKED_CIPHER_TABLE maskedCipherTable);
+bool pushToCipherTableList(MASKED_CIPHER_TABLE maskedCipherTable);
 MASKED_CIPHER_TABLE getMaskedCipherTableBy(int index);
 
 #endif
