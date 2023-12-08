@@ -20,4 +20,6 @@ int main()
 	c.AddStyle(*bold);
 
 	printf("c: %s\n", c.GetFormattedText().c_str());
+
+	return 0;
 }
